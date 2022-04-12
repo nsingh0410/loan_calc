@@ -1,18 +1,19 @@
 # setup and install
 
 git clone the repository
+> git clone https://github.com/nsingh0410/loan_calc
 
 Then install dependencies:
 
 $cd loan_calc
-$ npm install
+$npm install
 On MacOS or Linux, run the app with this command:
 
 # start web server
 $ DEBUG=myapp:* npm start
 On Windows Command Prompt, use this command:
 
-> set DEBUG=myapp:* & npm start
+set DEBUG=myapp:* & npm start
 On Windows PowerShell, use this command:
 
 PS> $env:DEBUG='myapp:*'; npm start
