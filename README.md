@@ -5,19 +5,22 @@ git clone the repository
 
 Then install dependencies:
 
-$cd loan_calc
-$npm install
-On MacOS or Linux, run the app with this command:
+> $cd loan_calc
+>
+> $npm install
+
 
 # start web server
-$ DEBUG=myapp:* npm start
+On MacOS or Linux, run the app with this command:
+> $ DEBUG=myapp:* npm start
+
 On Windows Command Prompt, use this command:
+> set DEBUG=myapp:* & npm start
 
-set DEBUG=myapp:* & npm start
 On Windows PowerShell, use this command:
+> PS> $env:DEBUG='myapp:*'; npm start
 
-PS> $env:DEBUG='myapp:*'; npm start
-Then load http://localhost:3000/ in your browser to access the app.
+Then load http://localhost:3000/api/loans in your browser to access the app.
 
 # how long did you spend creating the application
 
@@ -42,4 +45,6 @@ Express JS generated the api very easily and cleanly, also loved the seperate pa
 
 # example usage
 Just need to add the parameters to the end of the request. 
-http://localhost:3000/api/loan?intrest_pa=0.06&loan_term_months=60&total_loan_amount=10000&monthly_fee=50&broker_fee=0.0175
+> http://localhost:3000/api/loan?intrest_pa=0.06&loan_term_months=60&total_loan_amount=10000&monthly_fee=50&broker_fee=0.0175
+
+![image](https://user-images.githubusercontent.com/30139083/162867738-b6c107bc-0010-484d-8249-8d8298537ed2.png)
