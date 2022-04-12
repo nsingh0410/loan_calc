@@ -48,3 +48,7 @@ Just need to add the parameters to the end of the request.
 > http://localhost:3000/api/loan?intrest_pa=0.06&loan_term_months=60&total_loan_amount=10000&monthly_fee=50&broker_fee=0.0175
 
 ![image](https://user-images.githubusercontent.com/30139083/162867738-b6c107bc-0010-484d-8249-8d8298537ed2.png)
+
+# Improvements 
+Sanitise the output. 
+Write unit tests.
